@@ -65,17 +65,12 @@
         {
           "anchor": "Discord",
           "href": "https://discord.gg/beamxr",
-          "icon": "message-square-more"
+          "icon": "discord"
         },
         {
           "anchor": "Developer Docs",
           "href": "https://docs.beamxr.io",
           "icon": "book-open"
-        },
-        {
-          "anchor": "BeamXR Portal",
-          "href": "https://portal.beamxr.io",
-          "icon": "log-in"
         },
         {
           "anchor": "BeamXR Live App",
