@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "BeamXR Help",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -48,21 +48,12 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "BeamXR InGame",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "BeamXR InGame Introduction",
             "pages": [
               "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           }
         ]
