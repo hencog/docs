@@ -78,9 +78,9 @@
         },
         {
           "anchor": "BeamXR Live App",
-          "href": "#",
+          "href": "https://www.meta.com/en-gb/experiences/",
           "icon": "store"
-        },
+        }
       ]
     }
   },
@@ -103,8 +103,7 @@
   },
   "footer": {
     "socials": {
-      "tiktok": "https://www.tiktok.com/@beam_xr",
-      "twitch": "https://www.twitch.tv/teambeamxr",
+      "website": "https://beamxr.io",
       "youtube": "https://www.youtube.com/@Beam_XR",
       "linkedin": "https://www.linkedin.com/company/beam-xr-ltd"
     }
