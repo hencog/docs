@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "BeamXR Help",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0A8FC0",
+    "light": "#68CCF1",
+    "dark": "#08141E"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -62,20 +62,25 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Discord",
+          "href": "https://discord.gg/beamxr",
+          "icon": "message-square-more"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Developer Docs",
+          "href": "https://docs.beamxr.io",
+          "icon": "book-open"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+          "anchor": "BeamXR Portal",
+          "href": "https://portal.beamxr.io",
+          "icon": "log-in"
+        },
+        {
+          "anchor": "BeamXR Live App",
+          "href": "#",
+          "icon": "store"
+        },
       ]
     }
   },
@@ -87,20 +92,21 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.gg/beamxr"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Log In",
+      "href": "https://portal.beamxr.io"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "tiktok": "https://www.tiktok.com/@beam_xr",
+      "twitch": "https://www.twitch.tv/teambeamxr",
+      "youtube": "https://www.youtube.com/@Beam_XR",
+      "linkedin": "https://www.linkedin.com/company/beam-xr-ltd"
     }
   }
 }
