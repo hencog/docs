@@ -86,15 +86,11 @@
   },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "https://discord.gg/beamxr"
-      }
     ],
     "primary": {
       "type": "button",
-      "label": "Log In",
-      "href": "https://portal.beamxr.io"
+      "label": "Get Support (Discord)",
+      "href": "https://discord.gg/beamxr"
     }
   },
   "footer": {
