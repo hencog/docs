@@ -1,5 +1,48 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Why BeamXR Live Requests Permissions"
+description: "BeamXR Live needs a few system permissions to function properly. Here’s a breakdown of what we request and why:
+"
 ---
 
+### `android.permission.INTERNET`  
+Used to stream your gameplay to Twitch, YouTube, or a private link, and to connect to your BeamXR account.
+
+---
+
+### `android.permission.RECORD_AUDIO`  
+Lets us capture your microphone so your voice can be included in the stream.
+
+---
+
+### `android.permission.FOREGROUND_SERVICE`  
+Keeps BeamXR Live running in the background (e.g. while you’re in-game) without being shut down by the system.
+
+---
+
+### `android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION`  
+Allows BeamXR to capture your VR display — this is how your gameplay gets streamed.
+
+---
+
+### `android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK`  
+Reserved for future features that allow **local video playback** inside the app.
+
+---
+
+### `android.permission.FOREGROUND_SERVICE_MICROPHONE`  
+Required to access your microphone while the app is running as a foreground service (like during a live stream), following newer Android/Quest policies.
+
+---
+
+### `android.permission.CAMERA`  
+Used to support **Mixed Reality (MR) passthrough streaming** and **Meta Avatar face tracking** in supported headsets.
+
+---
+
+### `io.beamxr.beamxrlive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`  
+An internal permission used for secure communication within the BeamXR Live app.  
+It’s not accessible to any other app on your device.
+
+---
+
+If you have any questions or concerns about permissions, feel free to ask in our [Discord support channel](https://discord.gg/beamxr).
