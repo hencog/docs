@@ -26,6 +26,7 @@
           {
             "group": "Fix Streaming Issues",
             "pages": [
+              "live/rate-limit",
               "live/fix-issues/known-issues",
               "live/fix-issues/issues-with-youtube",
               "live/fix-issues/game-not-visible",
