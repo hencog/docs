@@ -3,25 +3,46 @@ title: "Mic Issue"
 description: "Here are the current known issues in BeamXR Live. We’re working hard to improve the experience and will update this list as things change. "
 ---
 
-## Mic Drops When You Open a Game
+<Info>
+  We've recently updated our mic to be stickier, you should be able to keep the microphone on your stream more consistently\! You don't need seamless multitasking enabled for this to work.
+</Info>
 
-On Meta Quest, **microphone access is exclusive** — only one app can use it at a time.
+## How The Mic Works
 
-- If **BeamXR Live is in focus**, the mic works for the stream.
-- But when you launch or focus a game that requests the mic, the mic is handed over to the game — and your stream loses audio input.
+You can send your mic to either your stream or the game you are currently playing by pressing one of the two buttons.
 
-We know this is frustrating — we want the fix as badly as you do\!
+When you select the "Mic in stream" button, the following will happen.
 
-**We’re exploring multiple solutions to improve this:**
+- BeamXR Live will try to request the microphone from your headset
+- If another app is currently using the microphone, it will either:
+  - Successfully take the mic, muting you in the other app
+  - Or fail to obtain the mic, but silently try to re-obtain it in the background
+- When you leave a game, or part of a game that uses voice chat, BeamXR Live will automatically regain the microphone
 
-- **Mic Toggle Feature**\
-  We’ve added a mic toggle for users with **Seamless Multitasking enabled**. You need to have this enabled, and BeamXR Live open for this to work. We have a guide on setting this up [here](https://help.beamxr.io/live/getting-started/how-to-install#7-seamless-multitasking-see-chat-in-game).\
-  \
-  You can now manually switch your mic to go **either to BeamXR Live or to the game** — but not both.
+<Warning>
+  **Note: this is a limitation with the Quest OS**. The mic is exclusive and can only be used by **one** application at a time.
+</Warning>
 
-  <Warning>
-    Some games will still **automatically take the mic back**, but BeamXR Live will now show an on-screen indicator so you always know if your mic is live on stream. [******You must make sure Seamless Multitasking is enabled\!******](https://help.beamxr.io/live/getting-started/how-to-install#7-seamless-multitasking-see-chat-in-game)
-  </Warning>
+---
+
+## Why Is My Mic Not Working?
+
+Most games with voice chat will prevent BeamXR Live from using the mic when they are already using it, such as for voice chat.
+
+It is recommended to start streaming **_before_** going into the game.
+
+If you are in a game with voice chat, and you give the game the mic back, it is unlikely that you will be able to give the mic back to the stream. You will see a warning in the BeamXR Live app if this is the case. To fix this, simply return to an area of the game without voice chat. You can also just close the game and the mic will recover.
+
+You can see which apps are currently using your mic in the Quest's quick settings panel.
+
+![Mic Usage Jp](/images/mic-usage.jpg)
+
+---
+
+## What we're doing to fix it
+
+- **Pair External Mic (and hopefully camera)**\
+  We're working on adding a function for you to pair an external mic and (hopefully camera) to use in your stream. You keep your headset mic in-game, and use your external mic on stream.
 - **OBS Workaround (Desktop Only)**\
   We’re working on support for users who want to stream via **desktop using OBS**.  You’ll be able to:
   - Add your Quest headset as a **video and audio source** in OBS
@@ -33,14 +54,3 @@ We know this is frustrating — we want the fix as badly as you do\!
   - Stream performance improves
   - You unlock in-game camera angles and stream overlays
   - 👉 [Tell your favourite game devs about it](https://docs.beamxr.io)
-
----
-
-## Found a Bug?
-
-We’ll continue adding known issues to this list.
-
-If you’ve found a bug or something’s not working as expected, please report it in our\
-📢 [#bug-reports](https://discord.gg/beamxr) channel on Discord.
-
-Your feedback helps us fix things faster\!
